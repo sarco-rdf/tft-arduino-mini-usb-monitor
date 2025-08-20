@@ -1,5 +1,13 @@
 # TFT-Arduino-Mini-USB-Monitor
 
+---
+⚖️ **Aviso legal**  
+Este proyecto (software y hardware) está protegido por la **Licencia Sarco-rdf Open Hardware/Software License v1.0 (NO-COMERCIAL)**.  
+Queda prohibido su uso comercial sin autorización expresa del autor.  
+
+📄 Ver la licencia completa en: [LICENSE](./LICENSE)  
+---
+
 Monitor usb mini con arduino para ver salida de terminales, pantalla completa o area seleccionada, se puede mejorar con rasperry py pico o zero para poner en unos lentes y extender la mira de videojuegos para mayor presicion.
 
 ═════════════════════════════════════════════════════════════════════════  
