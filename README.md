@@ -1,6 +1,6 @@
-# tft-arduino-mini-usb-monitor
+# TFT-Arduino-Mini-USB-Monitor
 
-Monitor usb mini arduino para ver salida de terminal, pantalla completa o area seleccionada, se puede mejorar con rasperry py pico o zero para poner en unos lentes y extender la mira de videojuegos para mayor presicion.
+Monitor usb mini con arduino para ver salida de terminales, pantalla completa o area seleccionada, se puede mejorar con rasperry py pico o zero para poner en unos lentes y extender la mira de videojuegos para mayor presicion.
 
 ═════════════════════════════════════════════════════════════════════════  
 
