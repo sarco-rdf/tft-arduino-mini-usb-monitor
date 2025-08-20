@@ -4,24 +4,32 @@ Monitor usb mini arduino para ver salida de terminal, pantalla completa o area s
 
 ═════════════════════════════════════════════════════════════════════════  
 
-Modo de uso:  
-              1 Conetar la tft al arduino 1 como en la [imagen.](images/conexion_tft.jpg)  
-              2 Cargar el archivo [TFT_USB_Monitor.ino](TFT_USB_Monitor/TFT_USB_Monitor.ino) al Arduino UNO.  
-              3 Abrir el archivo [TFT_Capture.py](TFT_Capture/TFT_Capture.py) con la terminal y Python3 o Visual Studio Code con la extension de Python.  
-              4 Seleccionar area y darle a Start Transmision o para pantalla completa darle a Start Full Monitor.  
-              5 Cuando acabe simplemente de click a Stop Transmisión y Salir.  
+### Modo de uso
+
+1. Conectar la TFT al Arduino UNO como en la [imagen](images/conexion_tft.jpg).  
+2. Cargar el archivo [`TFT_USB_Monitor.ino`](TFT_USB_Monitor/TFT_USB_Monitor.ino) al Arduino UNO.  
+3. Abrir el archivo [`TFT_Capture.py`](TFT_Capture/TFT_Capture.py) con la terminal y Python3 o Visual Studio Code con la extensión de Python.  
+4. Seleccionar área y darle a **Start Transmision**, o para pantalla completa darle a **Start Full Monitor**.  
+5. Cuando termines, simplemente haz clic en **Stop Transmisión** y luego en **Salir**.
 
 ═════════════════════════════════════════════════════════════════════════  
 
-Posibles errores y solucioiones:  
-              1 Asegurese de que no tiene el monitor serial de arduino abierto de lo contrario no cargara el programa python dando el error Access Denied.  
-              2 Asegurese de setear correctamente el puerto COM en el archivo TFT_Capture.py  
-              3 Si la imagen se ve fea espere unos segundos si no se arregla puede cambiar los baudios en el archivo TFT_Capture.py (linea: 15) y TFT_USB_Monitor.ino (linea: 15).  
-                IMPORTANTE: Ambos archivos deben tener el mismo numero, mientras mas bajo el valor mas lenta la transmision.  
-              3.1 Valores optimos funcionale: 9600; 115200; 250000.  
-              4 Falta de dependencias tanto en el ide de arduino como en python.  
-              5 Antes de cambiar la velocidad en ambos archivos asegurese de darle al boton Salir, de lo coontrario no podra subir el nuevo Sketch con la velocidad modificada al arduino
-                ya  que el puerto COM saldra como ocupado o Access Denied.  
+### ⚠️ Posibles errores y soluciones
+
+1. Asegúrate de que no tienes el monitor serial de Arduino abierto, de lo contrario no cargará el programa Python (error: **Access Denied**).  
+2. Verifica que el puerto COM esté correctamente configurado en el archivo [`TFT_Capture.py`](TFT_Capture/TFT_Capture.py).  
+3. Si la imagen se ve mal, espera unos segundos. Si no se arregla, puedes ajustar los baudios en:
+   - [`TFT_Capture.py`](TFT_Capture/TFT_Capture.py) → línea 15  
+   - [`TFT_USB_Monitor.ino`](TFT_USB_Monitor/TFT_USB_Monitor.ino) → línea 15  
+   - Valores óptimos funcionales: `9600`, `115200`, `250000`
+   - Cuanto más bajo el valor, más lenta será la transmisión.
+
+  ⚠️ **IMPORTANTE:** Ambos archivos deben tener el mismo valor.  
+     
+
+4. Asegúrate de tener instaladas todas las dependencias necesarias tanto en el IDE de Arduino como en Python.
+5. Antes de modificar la velocidad de transmisión en los archivos, asegúrate de presionar el botón **Salir** en la interfaz Python.  
+   Si no lo haces, el puerto COM seguirá ocupado y no podrás subir el nuevo sketch al Arduino (error: **Access Denied**).
 
 ═════════════════════════════════════════════════════════════════════════  
 
