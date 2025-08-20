@@ -6,8 +6,8 @@ Monitor usb mini arduino para ver salida de terminal, pantalla completa o area s
 
 Modo de uso:  
               1 Conetar la tft al arduino 1 como en la [imagen.](images/conexion_tft.jpg)  
-              2 Cargar el archivo TFT_USB_Monitor.ino al Arduino UNO.  
-              3 Abrir el archivo python con terminal o Visual Studio Code.  
+              2 Cargar el archivo [TFT_USB_Monitor.ino](TFT_USB_Monitor/TFT_USB_Monitor.ino) al Arduino UNO.  
+              3 Abrir el archivo [TFT_Capture.py](TFT_Capture/TFT_Capture.py) con la terminal y Python3 o Visual Studio Code con la extension de Python.  
               4 Seleccionar area y darle a Start Transmision o para pantalla completa darle a Start Full Monitor.  
               5 Cuando acabe simplemente de click a Stop Transmisión y Salir.  
 
