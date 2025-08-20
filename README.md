@@ -31,5 +31,5 @@ Monitor usb mini con arduino para ver salida de terminales, pantalla completa o 
 
 ═════════════════════════════════════════════════════════════════════════  
 
-![Conexión Arduino y TFT](images/conexion_tft.jpg)  
+![Conexión Arduino y TFT](images/Conexion_TFT.jpg)  
 
