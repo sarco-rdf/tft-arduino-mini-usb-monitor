@@ -23,9 +23,7 @@ Monitor usb mini arduino para ver salida de terminal, pantalla completa o area s
    - [`TFT_USB_Monitor.ino`](TFT_USB_Monitor/TFT_USB_Monitor.ino) → línea 15  
    - Valores óptimos funcionales: `9600`, `115200`, `250000`
    - Cuanto más bajo el valor, más lenta será la transmisión.
-
-  ⚠️ **IMPORTANTE:** Ambos archivos deben tener el mismo valor.  
-     
+   - ⚠️ **IMPORTANTE:** Ambos archivos deben tener el mismo valor.  
 
 4. Asegúrate de tener instaladas todas las dependencias necesarias tanto en el IDE de Arduino como en Python.
 5. Antes de modificar la velocidad de transmisión en los archivos, asegúrate de presionar el botón **Salir** en la interfaz Python.  
